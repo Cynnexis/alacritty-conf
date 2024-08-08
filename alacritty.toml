@@ -1,0 +1,36 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+# Documentation: https://alacritty.org/config-alacritty.html
+
+import = ['C:/Users/berger/AppData/Roaming/alacritty/themes/themes/horizon-dark.toml']
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "RobotoMono Nerd Font Bold"
+
+[font.bold_italic]
+family = "RobotoMono Nerd Font Bold Italic"
+
+[font.italic]
+family = "RobotoMono Nerd Font Italic"
+
+[font.normal]
+family = "RobotoMono Nerd Font"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[shell]
+program = 'C:\\Windows\\System32\\cmd.exe'
+
+[window]
+dynamic_title = false
+
+[window.padding]
+x = 10
+y = 10
